@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Authorized</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+        margin: 40px;
+      }
+      nav a {
+        margin-right: 12px;
+      }
+      .card {
+        padding: 16px;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        max-width: 720px;
+      }
+      .warn {
+        color: #b45309;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Landing</a>
+      <a href="/login">Login</a>
+      <a href="/authorized">Authorized</a>
+    </nav>
+
+    <div class="card">
+      <h1>Authorized (Protected later)</h1>
+      <p class="warn">
+        Right now this is NOT protected yet. We will enforce auth after Stytch
+        is wired up.
+      </p>
+    </div>
+  </body>
+</html>

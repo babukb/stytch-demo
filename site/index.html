@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Landing</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+        margin: 40px;
+      }
+      nav a {
+        margin-right: 12px;
+      }
+      .card {
+        padding: 16px;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        max-width: 720px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Landing</a>
+      <a href="/login">Login</a>
+      <a href="/authorized">Authorized</a>
+    </nav>
+
+    <div class="card">
+      <h1>Landing (Public)</h1>
+      <p>This is served by Nginx in Docker on <b>localhost:5173</b>.</p>
+      <p>
+        Next step: wire Stytch login on the Login page, and protect Authorized.
+      </p>
+    </div>
+  </body>
+</html>
