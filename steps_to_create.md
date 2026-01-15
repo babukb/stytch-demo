@@ -1,12 +1,12 @@
-1. Summary (what we’re building)
+# 1. Summary (what we’re building)
 
-You want a Dockerized Nginx server on localhost:5173 that serves a small web app with three pages:
+To build a Dockerized Nginx server on localhost:5173 that serves a small web app with three pages:
 
-Landing (public)
+###### Landing (public)
 
-Login (public) using Stytch Google social login (B2B) with Discovery + Signup + Login
+###### Login (public) using Stytch Google social login (B2B) with Discovery + Signup + Login
 
-Authorized page (protected) only visible after successful login
+###### Authorized page (protected) only visible after successful login
 
 You also want:
 
@@ -16,7 +16,8 @@ but page #3 should be visible/accessible only when logged in
 
 and you want to proceed one step at a time, including reviewing Docker compose logs and Nginx config structure (conf.d, nginx.conf, overrides-style organization).
 
-Prompt 2) A reusable “master prompt” you can paste to drive this project
+# Prompt 
+2) A reusable “master prompt” you can paste to drive this project
 
 Copy/paste this as your working prompt (edit paths if needed):
 
